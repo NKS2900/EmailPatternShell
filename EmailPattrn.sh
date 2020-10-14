@@ -4,7 +4,7 @@ echo "-----Email Pattern-----"
 #valid Format: abc.xyz@bridgelabz.co.in
 #madatory part: abc, bridgelabz, co
 
-format='^[a-zA-Z0-9]+(.[a-zA-Z0-9])*@[a-zA-Z0-9]+.[a-z]{2,4}+(.[a-z]{2})*$'
+format='^[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-z]{2,4}$'
 
 read -p "Enter Email Id: " email
 
