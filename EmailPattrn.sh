@@ -5,7 +5,7 @@ shopt -s extglob
 
 #valid Format: abc.xyz@bridgelabz.co
 
-format='^[a-zA-Z0-9]+(\@)[a-zA-Z0-9]+(\.)([a-z]{2,4})$'
+format='^[a-zA-Z0-9]+[+][0-9](\@)[a-zA-Z0-9]+(\.)([a-z]{2,4})+$'
 
 read -p "Enter Email Id: " email
 
